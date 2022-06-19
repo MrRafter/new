@@ -36,24 +36,15 @@ html {
 	padding: 25px 25px;
 }
 
-a.nav:link {
-	text-decoration: none;
-	color: #DF69E1;
+nav a{
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
 }
 
-a.nav:visited {
-	text-decoration: none;
-	color: #DF69E1;
-}
-
-a.nav:hover {
-	text-decoration: none;
-	color: #DF69E1;
-}
-
-a.nav:active {
-	text-decoration: none;
-	color: #DF69E1;
+nav a:hover{
+    color: rgb(221, 105, 221);
 }
 
 a:link {
