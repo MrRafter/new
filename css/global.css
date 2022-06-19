@@ -17,7 +17,7 @@ body {
   list-style-type: none; 
   margin: 0; 
   padding: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 html {
@@ -36,15 +36,24 @@ html {
 	padding: 25px 25px;
 }
 
-nav a{
-    font-size: 18px;
-    text-align: center;
-    align-items: center;
-    font-family: sans-serif;
+a.nav:link {
+	text-decoration: none;
+	color: #ffffff;
 }
 
-nav a:hover{
-    color: rgb(221, 105, 221);
+a.nav:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a.nav:hover {
+	text-decoration: none;
+	color: #bfbfbf;
+}
+
+a.nav:active {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 a:link {
