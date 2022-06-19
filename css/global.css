@@ -55,6 +55,16 @@ a.nav:active {
 	text-decoration: none;
 	color: #ffffff;
 }
+nav a{
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+nav a:hover{
+    color: rgb(221, 105, 221);
+}
 
 a:link {
 	color: #3F47CC;
